@@ -2,10 +2,10 @@
 Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity.
 
 ## Integrantes
-- David Bustos Franco
-- Santiago Bohorquez Suarez
-- Kevin Mollo Chambi
-- Sebastian Condori Quiñonez
+- (A) David Bustos Franco
+- (B) Santiago Bohorquez Suarez
+- (C) Kevin Mollo Chambi
+- (D) Sebastian Condori Quiñonez
 
 ## Ramas
 - main
