@@ -6,6 +6,12 @@ public class DoorController : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        if (!GameManager.Instance.HasKey)
+        {
+            Debug.Log("Necesitas la llave.");
+            return;
+        }
+
         if (animator != null)
         {
             animator.SetTrigger("Open");
