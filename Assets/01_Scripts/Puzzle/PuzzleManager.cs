@@ -9,8 +9,14 @@ public class PuzzleManager : MonoBehaviour
 
     public bool ValidateCode(string code)
     {
+        if (attempts >= maxAttempts)
+        {
+            Debug.Log("Sin intentos restantes. El panel está bloqueado.");
+            return false;
+        }
+
         attempts++;
-        bool valid = code == correctCode;
+        bool valid = code != null && code.Trim() == correctCode;
 
         if (valid)
         {
@@ -31,4 +37,7 @@ public class PuzzleManager : MonoBehaviour
 
     [ContextMenu("Probar código correcto")]
     private void TestCorrectCode() => ValidateCode(correctCode);
+
+    [ContextMenu("Probar código incorrecto")]
+    private void TestWrongCode() => ValidateCode("0000");
 }
