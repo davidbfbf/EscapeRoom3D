@@ -2,10 +2,10 @@
 Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity.
 
 ## Integrantes
-- David Bustos Franco
-- Santiago Bohorquez Suarez
-- Kevin Mollo Chambi
-- Sebastian Condori Quiñonez
+- (A) David Bustos Franco
+- (B) Santiago Bohorquez Suarez
+- (C) Kevin Mollo Chambi
+- (D) Sebastian Condori Quiñonez
 
 ## Ramas
 - main
@@ -17,3 +17,11 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 
 ## Objetivo
 Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de salida.
+Duración estimada: 5 minutos de juego.
+
+## Controles
+- WASD / flechas: moverse
+- E: interactuar
+
+## Estado
+En desarrollo
