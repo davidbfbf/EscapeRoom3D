@@ -33,5 +33,7 @@ public class CodePanel : MonoBehaviour
     public void Clear()
     {
         currentInput = "";
+        // TODO: reproducir sonido de borrado (pendiente de assets de audio)
+        Debug.Log("Panel limpiado.");
     }
 }
