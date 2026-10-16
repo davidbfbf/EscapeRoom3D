@@ -1,0 +1,2 @@
+Log generado automaticamente por el laboratorio
+build=001
