@@ -4,6 +4,7 @@ public class CodePanel : MonoBehaviour
 {
     [SerializeField] private PuzzleManager puzzleManager;
     [SerializeField] private int maxDigits = 4;
+    [SerializeField] private string hint = "La fecha del laboratorio"; // WIP: sistema de pistas
 
     private string currentInput = "";
 
