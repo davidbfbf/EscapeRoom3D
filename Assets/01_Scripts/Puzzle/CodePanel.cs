@@ -4,7 +4,6 @@ public class CodePanel : MonoBehaviour
 {
     [SerializeField] private PuzzleManager puzzleManager;
     [SerializeField] private int maxDigits = 4;
-    [SerializeField] private string hint = "La fecha del laboratorio"; // WIP: sistema de pistas
 
     private string currentInput = "";
 
@@ -34,7 +33,5 @@ public class CodePanel : MonoBehaviour
     public void Clear()
     {
         currentInput = "";
-        // TODO: reproducir sonido de borrado (pendiente de assets de audio)
-        Debug.Log("Panel limpiado.");
     }
 }
