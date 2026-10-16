@@ -21,4 +21,18 @@ public class GameManager : MonoBehaviour
     {
         HasKey = true;
     }
+
+    private int initializeCount;
+
+    public void Initialize()
+    {
+        initializeCount++;
+        HasKey = false;
+        Debug.Log($"GameManager.Initialize() - llamada {initializeCount}");
+
+        if (initializeCount > 1)
+        {
+            Debug.LogError("GameManager se inicializó más de una vez.");
+        }
+    }
 }
