@@ -4,6 +4,6 @@ public class OldDoorController : MonoBehaviour
 {
     public void Open()
     {
-        Debug.Log("Puerta antigua abierta.");
+        Debug.Log("Puerta antigua abierta (corregida).");
     }
 }
