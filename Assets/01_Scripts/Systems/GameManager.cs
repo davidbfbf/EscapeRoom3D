@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
+        StartNewGame();
     }
 
     public void ObtainKey()
@@ -34,5 +35,10 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("GameManager se inicializó más de una vez.");
         }
+    }
+
+    private void StartNewGame()
+    {
+        Initialize();
     }
 }
